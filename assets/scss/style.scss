@@ -3433,9 +3433,13 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 }
 .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(1):before,
 .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(1):after {
-  content: '2020';
+  content: '2021';
 }
 .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(2):before,
 .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(2):after {
+  content: '2020';
+}
+.swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(3):before,
+.swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(3):after {
   content: '2019';
 }
