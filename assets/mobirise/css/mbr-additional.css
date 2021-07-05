@@ -369,7 +369,7 @@
 #ext_menu-0 .dropdown-item:focus {
   color: #f72d2a;
 }
-#ext_menu-0 .link[aria-expanded="true"],
+#ext_menu-0 .link[aria-expanded='true'],
 #ext_menu-0 .dropdown-menu {
   background: #d6d6d6;
 }
@@ -377,11 +377,11 @@
 #ext_menu-0 .nav-dropdown-sm .link:hover,
 #ext_menu-0 .nav-dropdown-sm .dropdown-item:focus,
 #ext_menu-0 .nav-dropdown-sm .dropdown-item:hover {
-  background: #e7e7e7!important;
+  background: #e7e7e7 !important;
 }
 #ext_menu-0 .navbar,
 #ext_menu-0 .nav-dropdown-sm,
-#ext_menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-0 .nav-dropdown-sm .link[aria-expanded='true'],
 #ext_menu-0 .nav-dropdown-sm .dropdown-menu {
   background: #efefef;
 }
@@ -396,9 +396,9 @@
 #ext_menu-0 .bg-color.transparent.opened .link:focus {
   color: #f72d2a;
 }
-#ext_menu-0 .link[aria-expanded="true"],
-#ext_menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #f72d2a!important;
+#ext_menu-0 .link[aria-expanded='true'],
+#ext_menu-0 .dropdown-item[aria-expanded='true'] {
+  color: #f72d2a !important;
 }
 #header3-3 .mbr-section-title,
 #header3-3 .mbr-section-subtitle {
@@ -406,17 +406,17 @@
 }
 #header3-3 H3 {
   color: #28324e;
-  font-size: 32px;
+  font-size: 2rem;
 }
 #header2-2 .mbr-section-text {
   color: #000000;
-  font-size: 14px;
-/*  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;*/
+  font-size: 0.875rem;
+  /*  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;*/
   text-align: justify;
-    text-justify: distribute;
+  text-justify: distribute;
 }
 #header2-2 .mbr-section-text I {
-  font-size: 16px;
+  font-size: 1rem;
 }
 /*
 #header2-2 .mbr-section-text B {
@@ -429,114 +429,114 @@
 }
 #header3-4 H3 {
   color: #28324e;
-  font-size: 32px;
+  font-size: 2rem;
 }
-#features1-5 .striped .mbr-cards-col:nth-child(2n+1) {
+#features1-5 .striped .mbr-cards-col:nth-child(2n + 1) {
   background-color: #f1f1f1;
 }
 #features1-5 .mbr-cards-col:nth-child(odd) .card-title {
   color: #e25041;
-  font-size: 20px;
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
   text-align: left;
 }
 #features1-5 .mbr-cards-col:nth-child(odd) .card-subtitle SPAN {
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 #features1-5 .mbr-cards-col:nth-child(even) .card-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #e25041;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-5 .mbr-cards-col:nth-child(odd) .card-text {
   color: #464646;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-5 .mbr-cards-col:nth-child(even) .card-text {
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-5 .btn {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
-#features1-6 .striped .mbr-cards-col:nth-child(2n+1) {
+#features1-6 .striped .mbr-cards-col:nth-child(2n + 1) {
   background-color: #f1f1f1;
 }
 #features1-6 .mbr-cards-col:nth-child(odd) .card-title {
   color: #e25041;
-  font-size: 20px;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-6 .mbr-cards-col:nth-child(odd) .card-subtitle SPAN {
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 #features1-6 .mbr-cards-col:nth-child(even) .card-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #e25041;
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-6 .mbr-cards-col:nth-child(odd) .card-text {
   color: #464646;
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-6 .mbr-cards-col:nth-child(even) .card-text {
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-6 .btn {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
-#features1-7 .striped .mbr-cards-col:nth-child(2n+1) {
+#features1-7 .striped .mbr-cards-col:nth-child(2n + 1) {
   background-color: #f1f1f1;
 }
 #features1-7 .mbr-cards-col:nth-child(odd) .card-title {
   color: #e25041;
-  font-size: 20px;
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-7 .mbr-cards-col:nth-child(odd) .card-subtitle SPAN {
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 #features1-7 .mbr-cards-col:nth-child(even) .card-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #e25041;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-7 .mbr-cards-col:nth-child(odd) .card-text {
   color: #464646;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-7 .mbr-cards-col:nth-child(even) .card-text {
-  font-family:'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-7 .btn {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
-#features1-8 .striped .mbr-cards-col:nth-child(2n+1) {
+#features1-8 .striped .mbr-cards-col:nth-child(2n + 1) {
   background-color: #f1f1f1;
 }
 #features1-8 .mbr-cards-col:nth-child(odd) .card-title {
   color: #e25041;
-  font-size: 20px;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-8 .mbr-cards-col:nth-child(odd) .card-subtitle SPAN {
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 #features1-8 .mbr-cards-col:nth-child(even) .card-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #e25041;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-8 .mbr-cards-col:nth-child(odd) .card-text {
   color: #464646;
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-8 .mbr-cards-col:nth-child(even) .card-text {
-  font-family: 'Microsoft JhengHei','Open Sans', sans-serif;
+  font-family: 'Microsoft JhengHei', 'Open Sans', sans-serif;
 }
 #features1-8 .btn {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
