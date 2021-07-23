@@ -3380,3 +3380,58 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(3):after {
   content: "2019";
 }
+
+.report_bg {
+  background-color: #f5f5f5;
+  padding: 120px 0;
+}
+.report_bg h1 {
+  font-size: 2.25rem;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+.report_bg h2 {
+  font-size: 1.75rem;
+  color: #f16505;
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+.report_bg p {
+  font-size: 1.125rem;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+.report_bg .wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.report_bg .wrapper .line {
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  margin: 24px 0;
+}
+.report_bg .wrapper .intro {
+  position: relative;
+  background-color: white;
+}
+.report_bg .wrapper .intro p {
+  font-size: 0.9375rem;
+  padding: 16px 24px;
+}
+.report_bg .wrapper .intro::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 8px;
+  background-color: #f72d2a;
+}
+.report_bg .wrapper .img_card {
+  margin: 32px 0;
+}
+.report_bg .wrapper .img_card img {
+  width: 100%;
+}
+.report_bg .wrapper .img_card .card-body {
+  padding: 10px 20px;
+}
