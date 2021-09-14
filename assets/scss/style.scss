@@ -3193,7 +3193,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
     overflow-y: scroll;
 
     &::-webkit-scrollbar {
-      background-color: #f7b310;
+      background-color: #42a9d1;
       width: 6px;
       border-radius: 6px;
     }
@@ -3201,7 +3201,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
     &::-webkit-scrollbar-thumb {
       border-radius: 6px;
       //            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-      background-color: #f78810;
+      background-color: #28324e;
     }
 
     img {
@@ -3212,7 +3212,8 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
     }
   }
   .theme-one,
-  .theme-two {
+  .theme-two,
+  .theme-three {
     .block {
       .title {
         display: flex;
@@ -3266,6 +3267,15 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
     }
     strong {
       background: #55c6c6;
+    }
+  }
+  .theme-three {
+    h5 {
+      // color: #28324e;
+      color: #2b1450;
+    }
+    strong {
+      background: #5bd8de;
     }
   }
   .headtitle {
@@ -3382,7 +3392,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 
 // slider
 .swiper-pagination.swiper-pagination-bullets {
-  background: #f36f22;
+  background: #42a9d1;
   border: none;
   border-radius: 32px;
   bottom: inherit;
@@ -3407,7 +3417,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
     user-select: none;
     overflow: hidden;
     &::before {
-      background-color: #f72d2a;
+      background-color: #83d6dc;
       color: #fff;
       position: absolute;
       top: 0px;

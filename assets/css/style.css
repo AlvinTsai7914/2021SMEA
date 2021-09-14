@@ -3124,13 +3124,13 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
   overflow-y: scroll;
 }
 #header2-2 .content-size::-webkit-scrollbar {
-  background-color: #f7b310;
+  background-color: #42a9d1;
   width: 6px;
   border-radius: 6px;
 }
 #header2-2 .content-size::-webkit-scrollbar-thumb {
   border-radius: 6px;
-  background-color: #f78810;
+  background-color: #28324e;
 }
 #header2-2 .content-size img {
   height: 32px;
@@ -3139,7 +3139,8 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
   height: 48px;
 }
 #header2-2 .theme-one .block .title,
-#header2-2 .theme-two .block .title {
+#header2-2 .theme-two .block .title,
+#header2-2 .theme-three .block .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3148,13 +3149,15 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
           align-items: center;
 }
 #header2-2 .theme-one .block .title h5,
-#header2-2 .theme-two .block .title h5 {
+#header2-2 .theme-two .block .title h5,
+#header2-2 .theme-three .block .title h5 {
   font-size: 1.35rem;
   font-weight: 700;
   margin: 0 0 0 8px;
 }
 #header2-2 .theme-one .block .title strong,
-#header2-2 .theme-two .block .title strong {
+#header2-2 .theme-two .block .title strong,
+#header2-2 .theme-three .block .title strong {
   color: white;
   display: block;
   border-radius: 60px;
@@ -3166,13 +3169,15 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
   line-height: 44px;
 }
 #header2-2 .theme-one .block p,
-#header2-2 .theme-two .block p {
+#header2-2 .theme-two .block p,
+#header2-2 .theme-three .block p {
   clear: both;
   font-size: 1rem;
   margin-top: 0.5rem;
 }
 #header2-2 .theme-one .block a,
-#header2-2 .theme-two .block a {
+#header2-2 .theme-two .block a,
+#header2-2 .theme-three .block a {
   display: inline-block;
   font-size: 0.875rem;
   border-radius: 6px;
@@ -3191,6 +3196,12 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 }
 #header2-2 .theme-two strong {
   background: #55c6c6;
+}
+#header2-2 .theme-three h5 {
+  color: #2b1450;
+}
+#header2-2 .theme-three strong {
+  background: #5bd8de;
 }
 #header2-2 .headtitle {
   background: #f78810;
@@ -3302,7 +3313,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
   }
 }
 .swiper-pagination.swiper-pagination-bullets {
-  background: #f36f22;
+  background: #42a9d1;
   border: none;
   border-radius: 32px;
   bottom: inherit;
@@ -3336,7 +3347,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
   overflow: hidden;
 }
 .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet::before {
-  background-color: #f72d2a;
+  background-color: #83d6dc;
   color: #fff;
   position: absolute;
   top: 0px;
