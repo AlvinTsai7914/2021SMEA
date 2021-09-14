@@ -2573,7 +2573,8 @@ input:-webkit-autofill:active {
 }
 
 .mbr-arrow {
-  bottom: 48px;
+  // 20210914 Alvin
+  bottom: 80px;
   left: 0;
   position: absolute;
   text-align: center;
@@ -3292,7 +3293,8 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 }
 
 .map-section {
-  background-color: rgb(254, 199, 66);
+  // background-color: rgb(254, 199, 66);
+  background-color: #d5eff9;
   padding: 72px 0 0px;
   height: inherit;
   .swiper-container {

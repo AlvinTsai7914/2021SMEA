@@ -2525,7 +2525,7 @@ input:-webkit-autofill:active {
   }
 }
 .mbr-arrow {
-  bottom: 48px;
+  bottom: 80px;
   left: 0;
   position: absolute;
   text-align: center;
@@ -3212,7 +3212,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 }
 
 .map-section {
-  background-color: #fec742;
+  background-color: #d5eff9;
   padding: 72px 0 0px;
   height: inherit;
 }
